@@ -43,7 +43,7 @@ Let's run Ubuntu on Windows pressing "Windows logo" key and type "Ubuntu". You c
 <br>
 <br>After installation is completed, let's configure iptables on Ubuntu WSL terminal.
 <br>
-<br>Run the following:
+<br>Run the following command:
 ```console
 sudo update-alternatives --config iptables
 ```
