@@ -36,7 +36,7 @@ sudo update-alternatives --config iptables
 ```
 
 Select "iptables-legacy" option
-```buttonless
+```{.sh .no-copy}
 There are 2 choices for the alternative iptables (providing /usr/sbin/iptables).
 
   Selection    Path                       Priority   Status
