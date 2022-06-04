@@ -30,7 +30,7 @@ Re-Run "wsl -l -v" again to verify your version
 ## IPTABLES Config
 
 Run the following command:
-```shell
+```console
 sudo update-alternatives --config iptables
 ```
 
