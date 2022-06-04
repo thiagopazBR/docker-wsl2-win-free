@@ -9,7 +9,9 @@ Verify that you are running WSL Version 2
 Open Command Prompt from the Windows search bar
 Run the following command:
 
+```powershell
 wsl -l -v
+```
 
 You should see a report such as this, which should confirm your WSL Version (NOTE: NAME may differ slightly)
 
