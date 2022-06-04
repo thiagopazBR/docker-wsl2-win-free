@@ -1,7 +1,7 @@
 # docker-wsl2-win-free
 Run docker on wsl2 (Ubuntu 22)
 
-After Ubuntu 22.04 intallation via Windows Store, follow the steps below:
+After Ubuntu 22.04 intallation via Windows Store, follow the steps below:<br>
 
 ## Ubuntu 22.04 WSL Version
 
@@ -50,10 +50,10 @@ Press <enter> to keep the current choice[*], or type selection number: 1
 
 ## Docker installation
 
-Follow "Step 1 — Installing Docker" instructions on link below 
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
+Follow "Step 1 — Installing Docker" instructions on link below
+<br>https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
 
 
 Manage Docker as a non-root user (VS Code on Windows 10 will be able to manage it)
-Follow the steps 2 annd 3 on link below
-https://docs.docker.com/engine/install/linux-postinstall/
+<br>Follow the steps 2 annd 3 on link below
+<br>https://docs.docker.com/engine/install/linux-postinstall/
