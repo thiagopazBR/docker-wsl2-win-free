@@ -3,7 +3,7 @@ Run docker on wsl2 (Ubuntu 22)
 
 After Ubuntu 22.04 intallation via Windows Store, follow the steps below:<br>
 
-## Ubuntu 22.04 WSL Version
+## Make sure you are using Version 2 of Ubuntu 22.04 (WSL)
 
 Verify that you are running WSL Version 2
 Open Command Prompt from the Windows search bar
