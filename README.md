@@ -6,7 +6,7 @@ This mini tutorial allows you to run docker containers in WSL machine, without D
 
 After Ubuntu 22.04 installation via Windows Store, follow the steps below:<br>
 
-## Make sure you are using Version 2 of Ubuntu 22.04 (WSL)
+## Make sure you are running Version 2 of Ubuntu 22.04 (WSL)
 
 Verify that you are running WSL Version 2
 Open Command Prompt from the Windows search bar
