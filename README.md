@@ -31,13 +31,22 @@ This will take a fair amount of time to complete
 ## IPTABLES Config
 
 Run the following command:
-```bash
+```console
 sudo update-alternatives --config iptables
 ```
 
 Select "iptables-legacy" option
+```console
+There are 2 choices for the alternative iptables (providing /usr/sbin/iptables).
 
-/usr/sbin/iptables-legacy
+  Selection    Path                       Priority   Status
+------------------------------------------------------------
+  0            /usr/sbin/iptables-nft      20        auto mode
+* 1            /usr/sbin/iptables-legacy   10        manual mode
+  2            /usr/sbin/iptables-nft      20        manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+```
 
 ## Docker installation
 
