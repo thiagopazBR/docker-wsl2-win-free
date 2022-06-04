@@ -42,11 +42,11 @@ Let's run Ubuntu on Windows pressing "Windows logo" key and type "Ubuntu". You c
 <br>The first launch will do the actual installation and will take a few seconds. The setup will also ask you for a username and a password for your distro configuration.
 <br>
 <br>After installation is completed, let's configure iptables on Ubuntu WSL terminal.
+<br>
 <br>Run the following:
 ```console
 sudo update-alternatives --config iptables
 ```
-
 Select "iptables-legacy" option
 ```{.text .no-copy}
 There are 2 choices for the alternative iptables (providing /usr/sbin/iptables).
