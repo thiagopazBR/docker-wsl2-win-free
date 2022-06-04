@@ -1,7 +1,10 @@
 # docker-wsl2-win-free
 Run docker on wsl2 (Ubuntu 22)
 
-After Ubuntu 22.04 intallation via Windows Store, follow the steps below:<br>
+This mini tutorial allows you to run docker containers in WSL machine, without Docker Desktop.
+<br>The iptables section is the trick to enable "internet" connection inside docker containers.
+
+After Ubuntu 22.04 installation via Windows Store, follow the steps below:<br>
 
 ## Make sure you are using Version 2 of Ubuntu 22.04 (WSL)
 
