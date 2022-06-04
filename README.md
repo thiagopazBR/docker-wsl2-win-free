@@ -4,6 +4,16 @@ Run docker on wsl2 (Ubuntu 22)
 This mini tutorial allows you to install docker without docker desktop on windows.
 <br>The iptables section is the trick to enable "internet" connection inside docker containers.
 
+
+## Enable WSL
+<span style="color: red">If Docker Desktop is installed you have to uninstall it.</span>
+
+<br>In Windows, the Linux Subsystem has to be enabled. This can be done with a PowerShell command:
+```powershell
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+
+
 After Ubuntu 22.04 installation via Windows Store, follow the steps below:<br>
 
 ## Make sure you are running Version 2 of Ubuntu 22.04 (WSL)
