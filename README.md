@@ -15,21 +15,24 @@ wsl -l -v
 
 You should see a report such as this, which should confirm your WSL Version (NOTE: NAME may differ slightly)
 
+```powershell
 wsl --set-version Ubuntu-22.04 2
-
+```
 
 If your version states version 1, you might need to take an additional step to update Ubuntu:
 Enter the following command (NOTE: replace Ubuntu-22.04 with the actual version you installed):
 wsl --set-version Ubuntu-22.04 2
 
 This will take a fair amount of time to complete
-Re-Run the "wsl -l -v" to verify your version
+Re-Run "wsl -l -v" again to verify your version
 
 
 ## IPTABLES Config
 
 Run the following command:
+```shell
 sudo update-alternatives --config iptables
+```
 
 Select "iptables-legacy" option
 
