@@ -14,7 +14,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 ```
 
 ## Install Ubuntu on WSL2
-After you set up the prerequisite you have to open a PowerShell with administrative privileges and install Ubuntu in WSL2 with the following command:
+After you set up the prerequisite above, you have to open a PowerShell with administrative privileges and install Ubuntu in WSL2 with the following command:
 ```powershell
 wsl --set-default-version 2
 wsl --install -d Ubuntu
