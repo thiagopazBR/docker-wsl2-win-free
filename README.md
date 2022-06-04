@@ -39,9 +39,10 @@ This will take a fair amount of time to complete. Re-Run "wsl -l -v" to verify y
 ## IPTABLES Config
 
 Let's run Ubuntu on Windows pressing "Windows logo" key and type "Ubuntu". You can run it from there.
-<br>The first launch will do the actual installation and will take a few seconds. The setup will also ask you for a username and a password for your distro configuration
-
-Run the following command:
+<br>The first launch will do the actual installation and will take a few seconds. The setup will also ask you for a username and a password for your distro configuration.
+<br>
+<br>After installation is completed, let's configure iptables on Ubuntu WSL terminal.
+<br>Run the following:
 ```console
 sudo update-alternatives --config iptables
 ```
