@@ -7,6 +7,7 @@ This mini tutorial allows you to install docker without docker desktop on window
 
 ## Enable WSL
 <span style="color: red">If Docker Desktop is installed you have to uninstall it.</span>
+<span style="color:orange;">Word up</span>
 
 <br>In Windows, the Linux Subsystem has to be enabled. This can be done with a PowerShell command:
 ```powershell
