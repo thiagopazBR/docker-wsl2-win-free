@@ -8,23 +8,24 @@ After Ubuntu 22.04 intallation via Windows Store, follow the steps below:
 Verify that you are running WSL Version 2
 Open Command Prompt from the Windows search bar
 Run the following command:
-
 ```powershell
 wsl -l -v
 ```
 
 You should see a report such as this, which should confirm your WSL Version (NOTE: NAME may differ slightly)
+```powershell
+  NAME            STATE           VERSION
+* Ubuntu-22.04    Stopped         2
+```
 
+If your version states version 1, you might need to take an additional step to update Ubuntu.
+<br>Enter the following command (NOTE: replace Ubuntu-22.04 with the actual version you installed):
 ```powershell
 wsl --set-version Ubuntu-22.04 2
 ```
 
-If your version states version 1, you might need to take an additional step to update Ubuntu:
-Enter the following command (NOTE: replace Ubuntu-22.04 with the actual version you installed):
-wsl --set-version Ubuntu-22.04 2
-
 This will take a fair amount of time to complete
-Re-Run "wsl -l -v" again to verify your version
+<br>Re-Run "wsl -l -v" again to verify your version
 
 
 ## IPTABLES Config
