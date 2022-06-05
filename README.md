@@ -72,5 +72,9 @@ Manage Docker as a non-root user (VS Code on Windows 10 will be able to manage i
 
 ## VS CODE
 Install the following extensions on vscode:
+<br>
 <br>ms-vscode-remote.remote-containers
 <br>ms-vscode-remote.remote-wsl
+<br>
+After that, with vscode opened, press F1 and search for "Remote Containers: Settings for Remote Containers" and then flag
+"Remote › Containers: Execute In WSL" option
