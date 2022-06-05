@@ -69,3 +69,8 @@ Follow "Step 1 — Installing Docker" instructions on link below
 Manage Docker as a non-root user (VS Code on Windows 10 will be able to manage it)
 <br>Follow the steps 2 annd 3 on link below
 <br>https://docs.docker.com/engine/install/linux-postinstall/
+
+## VS CODE
+Install the following extensions on vscode:
+<br>ms-vscode-remote.remote-containers
+<br>ms-vscode-remote.remote-wsl
