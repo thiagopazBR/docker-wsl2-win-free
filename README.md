@@ -76,5 +76,5 @@ Install the following extensions on vscode:
 <br>ms-vscode-remote.remote-containers
 <br>ms-vscode-remote.remote-wsl
 <br>
-After that, with vscode opened, press F1 and search for "Remote Containers: Settings for Remote Containers" and then flag
+<br>After that, with vscode opened, press F1 and search for "Remote Containers: Settings for Remote Containers" and then flag
 "Remote › Containers: Execute In WSL" option
